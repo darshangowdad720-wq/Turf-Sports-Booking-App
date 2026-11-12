@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turf Sports Slot Booking"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Name"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone number"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Sport"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+
+        <Spinner
+            android:id="@+id/spinnerSport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Time Slot"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOOK SLOT"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>
